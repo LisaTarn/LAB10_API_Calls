@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Calls In JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+    <button id="fetchData">Fetch Data</button>
+    <br><br>
+    <button id="xhrData">Fetch Data with XHR</button>
+    <br><br>
+    <table id="outputTable">
+        <thead>
+            <tr>
+                <th>userId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+        <p>Post Title</p><input type="text" id="title1" name="title" required><br>
+        <p>Post Body</p><input type="text" id="body1" name="body" required><br>
+        <br>
+        <button id="postData">Post Data</button>
+             
+
+<p>ID</p><input type="number" id="id2" name="id2" required><br>
+<p>Post Title</p><input type="text" id="title2" name="title" required><br>
+<p>Post Body</p><input type="text" id="body2" name="body" required><br>
+<br>
+        <br><button id="put1" onclick="putUserID()">Update ID</button>
+  <br>
+  <br>
+  <button id="allFetch">Fetch all posts</button>      
+        <div id="error"></div>
+        <div id="success"></div>
+</div>
+
+</body>
+</html>
